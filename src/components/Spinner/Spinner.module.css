@@ -1,0 +1,15 @@
+.Container {
+  background-color: rgba(0, 0, 0, 0.68);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 1100;
+  width: 180px;
+  height: 180px;
+  pointer-events: none;
+}

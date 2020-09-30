@@ -1,0 +1,33 @@
+/* COLORS */
+
+@value mainColor: #272727;
+@value lightColor: #FFFFFF;
+
+@value accentColor: #FF8B37;
+@value mainTextColor: #1C1C21;
+
+@value inactiveColor: #D0D0D8;
+@value correctColor: #47D867;
+@value wrongColor: #EC6259;
+
+@value secondBgColor: #F5F5F7;
+@value selectedBgColor: #FFF3EB;
+@value correctBgColor: #E6FAEA;
+@value wrongBgColor: #FDEEED;
+
+@value hoverBgColor: #FFAC70;
+@value pressedBgColor: #E87928;
+
+/* FONT SIZES */
+/* 36 px */
+@value primaryHeaderFontSize: 2.25 rem;
+/* 24 px */
+@value secondaryHeaderFontSize: 1.5 rem;
+/* 30 px */
+@value thirdHeaderFontStyle: 1.88 rem;
+/* 14 px */
+@value primaryTextFontSize: 0.875 rem;
+/* 20 px */
+@value secondaryTextFontSize: 1.25 rem;
+/* 76 px */
+@value sliderFontSize: 4.75 rem;
