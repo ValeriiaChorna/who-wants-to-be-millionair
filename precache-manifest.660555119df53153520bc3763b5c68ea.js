@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ebeb2c83644b20cbbe07455b73b08ac",
+    "revision": "69a9357904035b45cfa9015b54399650",
     "url": "/who-wants-to-be-millionaire/index.html"
   },
   {
-    "revision": "f4de8f41c834f59dbb13",
+    "revision": "49d0675ef9a35c0163f5",
     "url": "/who-wants-to-be-millionaire/static/css/2.f87e9f44.chunk.css"
   },
   {
-    "revision": "c4e08ef2c24ddb3cd310",
-    "url": "/who-wants-to-be-millionaire/static/css/main.e62bdcec.chunk.css"
+    "revision": "e0a22bcff4b42ca6ba1a",
+    "url": "/who-wants-to-be-millionaire/static/css/main.c141cd2c.chunk.css"
   },
   {
-    "revision": "f4de8f41c834f59dbb13",
-    "url": "/who-wants-to-be-millionaire/static/js/2.36e3197c.chunk.js"
+    "revision": "49d0675ef9a35c0163f5",
+    "url": "/who-wants-to-be-millionaire/static/js/2.cc84e817.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/who-wants-to-be-millionaire/static/js/2.36e3197c.chunk.js.LICENSE.txt"
+    "url": "/who-wants-to-be-millionaire/static/js/2.cc84e817.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4e08ef2c24ddb3cd310",
-    "url": "/who-wants-to-be-millionaire/static/js/main.42582fdd.chunk.js"
+    "revision": "e0a22bcff4b42ca6ba1a",
+    "url": "/who-wants-to-be-millionaire/static/js/main.27da3e6f.chunk.js"
   },
   {
     "revision": "8e53d058b8221bb2497f",
     "url": "/who-wants-to-be-millionaire/static/js/runtime-main.dad4d559.js"
-  },
-  {
-    "revision": "df764b8f49855a12093a8dc797d849cb",
-    "url": "/who-wants-to-be-millionaire/static/media/Inactive.df764b8f.svg"
   },
   {
     "revision": "06b4a39f7ea3bf0f86951145ead7a027",
@@ -320,8 +316,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/who-wants-to-be-millionaire/static/media/Inter-ThinItalicBETA.d82c5c45.woff"
   },
   {
-    "revision": "65f9989b99ab304f21cffad7e2539f6b",
-    "url": "/who-wants-to-be-millionaire/static/media/Rectangle-15.65f9989b.svg"
+    "revision": "8e4f9529b19fa9404d43de3c35761d05",
+    "url": "/who-wants-to-be-millionaire/static/media/Rectangle-15.8e4f9529.svg"
+  },
+  {
+    "revision": "f25a043af3bf23aae0dbab01533d46da",
+    "url": "/who-wants-to-be-millionaire/static/media/borderIcon.f25a043a.svg"
+  },
+  {
+    "revision": "408c9e3fa7b1e377c393f2698d14e488",
+    "url": "/who-wants-to-be-millionaire/static/media/borderQuestionIcon.408c9e3f.svg"
   },
   {
     "revision": "276b2ba6b79973c3215716dd829c1be1",
