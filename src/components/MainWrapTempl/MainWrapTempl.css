@@ -41,6 +41,12 @@
   background-color: var(--hoverBgColor);
 }
 
+.secondaryTitle {
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
 @media (min-width: 320px) {
 }
 
@@ -69,5 +75,8 @@
     height: 64px;
     border-radius: 12px;
     margin: 0;
+  }
+  .secondaryTitle {
+    text-align: left;
   }
 }

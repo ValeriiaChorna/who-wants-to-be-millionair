@@ -1,0 +1,47 @@
+.playZone {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 4rem;
+}
+.questionName {
+  width: 100%;
+}
+
+.answersWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.answerItem {
+  position: relative;
+  width: 50%;
+}
+
+.borderQuestIcon {
+  stroke: var(--inactiveColor);
+  fill: var(--lightColor);
+}
+.answerItemTitle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 8px 46px;
+  display: flex;
+  align-items: center;
+}
+
+.answerLabel {
+  color: var(--accentColor);
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.answerName {
+  display: inline-block;
+}

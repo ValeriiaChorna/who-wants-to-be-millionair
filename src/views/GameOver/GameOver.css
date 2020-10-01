@@ -4,9 +4,3 @@
   background-color: var(--secondBgColor);
   margin: 0 auto;
 }
-
-.secondaryTitle {
-  text-align: center;
-  opacity: 0.5;
-  margin-bottom: 8px;
-}

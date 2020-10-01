@@ -1,0 +1,20 @@
+[
+  {
+    "question": "How many Suns do we have?",
+    "answers": ["1", "4", "3", "2"],
+    "correctAnswIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Who is Klichko?",
+    "answers": ["actor", "president", "mayor of Kyiv", "ball"],
+    "correctAnswIndex": 2,
+    "level": "easy"
+  },
+  {
+    "question": "How many angles are in a triangle?",
+    "answers": ["1", "6", "2", "3"],
+    "correctAnswIndex": 3,
+    "level": "easy"
+  }
+]

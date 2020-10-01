@@ -3,6 +3,14 @@
   width: 1400px;
   background-color: var(--secondBgColor);
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  position: relative;
+}
+
+.gameMenuWrapp {
+  width: 376px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* transform: translate(-50%;-50%); */
 }

@@ -1,7 +1,7 @@
 .menu {
-  width: 376px;
-  background-color: var(--lightColor);
+  width: 100%;
   height: 100%;
+  background-color: var(--lightColor);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,11 +10,32 @@
 
 .menuItem {
   display: block;
+  position: relative;
   width: 100%;
   height: 40px;
-  padding: 8px;
   margin-bottom: 8px;
   text-align: center;
-  background-image: url('../../assets/img/Inactive.svg');
   background-size: cover;
+}
+
+.menuText {
+  position: absolute;
+  padding: 8px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menuIcons {
+  width: 100%;
+  stroke: var(--inactiveColor);
+}
+
+.currentLevel {
+  color: var(--accentColor);
+  stroke: var(--accentColor);
+}
+
+.passedLevel {
+  color: var(--inactiveColor);
 }
