@@ -1,5 +1,11 @@
 import React from 'react';
+import Menu from '../../components/Menu';
+import './Game.css';
 
 export default function Game() {
-  return <div>Game: Questions-Answers</div>;
+  return (
+    <div className="game">
+      <Menu />
+    </div>
+  );
 }

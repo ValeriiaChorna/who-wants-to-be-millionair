@@ -1,15 +1,20 @@
 @import '../stylesheet/libs/normalize.css';
 @import '../stylesheet/fonts.css';
+@import '../stylesheet/vars.css';
 
-@value variables: '../../stylesheet/vars.css';
-@value mainTextColor from variables;
+/* @value variables: '../stylesheet/vars.css';
+@value mainTextColor from variables; */
 
-html {
+html,
+body {
   box-sizing: border-box;
-  color: mainTextColor;
+  color: var(--mainTextColor);
   font-family: Inter;
   font-weight: normal;
   font-style: normal;
+  font-size: var(--mainTextFontSize);
+  /* line-height: 1.3; */
+  /* overflow: hidden; */
 }
 
 *,
@@ -63,4 +68,19 @@ input:active,
 button:active,
 button:focus {
   outline: none;
+}
+
+.app {
+  /* height: 900px; */
+  width: 100vw;
+}
+
+h2 {
+  font-size: var(--mainTitleFontSize);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: var(--secondTitleFontSize);
+  font-weight: 600;
 }

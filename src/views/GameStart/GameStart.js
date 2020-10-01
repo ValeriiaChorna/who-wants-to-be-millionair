@@ -1,32 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import GameOver from '../GameOver';
-import Game from '../Game';
+import MainWrapTempl from '../../components/MainWrapTempl';
+import './GameStart.css';
 
 export default function GameStart() {
   return (
-    <div>
-      <p>Game Start: Who wants to be a millionaire?</p>
-      <ul>
-        <li>
-          <NavLink
-            to="/game-over"
-            // className={styles.mainMenuItem}
-            // activeClassName={styles.mainMenuActiveItem}
-          >
-            <GameOver />
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/game"
-            // className={styles.mainMenuItem}
-            // activeClassName={styles.mainMenuActiveItem}
-          >
-            <Game />
-          </NavLink>
-        </li>
-      </ul>
+    <div className="gameStart">
+      <MainWrapTempl buttonText={'Start'}>
+        <h2 className="mainTitle">Who wants to be a millionaire?</h2>
+      </MainWrapTempl>
     </div>
   );
 }

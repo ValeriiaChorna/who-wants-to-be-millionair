@@ -1,0 +1,7 @@
+.gameStart {
+  height: 900px;
+  width: 1400px;
+  background-image: url('../../assets/img/Rectangle-15.svg');
+  background-size: cover;
+  margin: 0 auto;
+}
