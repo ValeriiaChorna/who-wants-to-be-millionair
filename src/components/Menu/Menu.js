@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import levels from '../../content/gameLevels.json';
 import { ReactComponent as MenuBorderIcons } from '../../assets/img/borderIcon.svg';
@@ -10,10 +10,6 @@ export default function Menu() {
   const { level } = useSelector(gameSelectors.getUserLevel);
   const dispatch = useDispatch();
   const addCurrLevel = level => dispatch(gameOperations.addUserLevel(level));
-
-  useEffect(() => {
-    addCurrLevel(0);
-  }, [addCurrLevel, dispatch]);
 
   return (
     <ul className="menu">
