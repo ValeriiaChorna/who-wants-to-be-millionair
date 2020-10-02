@@ -16,5 +16,64 @@
     "answers": ["1", "6", "2", "3"],
     "correctAnswIndex": 3,
     "level": "easy"
+  },
+  {
+    "question": "In 1893, what country was the first to grant women the right to vote?",
+    "answers": ["Canada", "Sweden", "New Zealand", "Denmark"],
+    "correctAnswIndex": 2,
+    "level": "easy"
+  },
+  {
+    "question": "The shortest distance between two points lying on a curved or flat surface is what type of line?",
+    "answers": ["Stochastic", "Isometric", "Discrete", "Geodesic"],
+    "correctAnswIndex": 3,
+    "level": "easy"
+  },
+  {
+    "question": "The highest mountain in South America is located in what country?",
+    "answers": ["Brazil", "Peru", "Ecuador", "Argentina"],
+    "correctAnswIndex": 3,
+    "level": "easy"
+  },
+  {
+    "question": "What kind of animal traditionally lives in a sity?",
+    "answers": ["Cow", "Pig", "Fox", "Teenager"],
+    "correctAnswIndex": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Semiotics is the study of what?",
+    "answers": ["Apes", "Word origins", "Signs and symbols", "Flags"],
+    "correctAnswIndex": 2,
+    "level": "easy"
+  },
+  {
+    "question": "The comic strip character Garfield the cat hates what day of the week? ",
+    "answers": ["Sunday", "Monday", "Thursday", "Friday"],
+    "correctAnswIndex": 1,
+    "level": "easy"
+  },
+  {
+    "question": "On a traditional round clock, what number is 180 degrees from the number 5?",
+    "answers": ["2", "6", "9", "11"],
+    "correctAnswIndex": 3,
+    "level": "easy"
+  },
+  {
+    "question": "What continent has the most countries?",
+    "answers": ["Europe", "Asia", "Africa", "South America"],
+    "correctAnswIndex": 2,
+    "level": "easy"
+  },
+  {
+    "question": "Which two countries currently account for more than a third of Earth's population?",
+    "answers": [
+      "China and Russia",
+      "India and China",
+      "India and Pakistan",
+      "China and Brazil"
+    ],
+    "correctAnswIndex": 1,
+    "level": "easy"
   }
 ]

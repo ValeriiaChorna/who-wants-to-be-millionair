@@ -6,9 +6,9 @@ import './Game.css';
 export default function Game() {
   return (
     <div className="game">
-      <PlayZone currentLevel={0} />
+      <PlayZone />
       <div className="gameMenuWrapp">
-        <Menu currentLevel={3} />
+        <Menu />
       </div>
     </div>
   );

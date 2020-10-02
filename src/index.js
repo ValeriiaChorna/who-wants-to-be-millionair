@@ -6,16 +6,13 @@ import { store, persistor } from './redux/store';
 import App from './components/App';
 import Spinner from './components/Spinner';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <Provider store={store}>
-//       {/* <PersistGate loading={<Spinner />} persistor={persistor}> */}
-//       <PersistGate loading={''} persistor={persistor}>
-//         <App />
-//       </PersistGate>
-//     </Provider>
-//   </React.StrictMode>,
-//   document.getElementById('root'),
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <PersistGate loading={<Spinner />} persistor={persistor}>
+        <App />
+      </PersistGate>
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root'),
+);

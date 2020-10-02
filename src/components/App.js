@@ -1,17 +1,20 @@
 import React from 'react';
-import './App.css';
+import { useSelector } from 'react-redux';
+import gameSelectors from '../redux/game/gameSelectors';
 import GameStart from '../views/GameStart';
 import Game from '../views/Game';
 import GameOver from '../views/GameOver';
+import './App.css';
 
-function App() {
+const App = () => {
+  const gameStatus = useSelector(gameSelectors.getGameStatus);
   return (
     <div className="app">
-      <GameStart />
-      <Game />
-      <GameOver />
+      {gameStatus === 'inactive' && <GameStart />}
+      {gameStatus === 'active' && <Game />}
+      {gameStatus === 'restart' && <GameOver />}
     </div>
   );
-}
+};
 
 export default App;

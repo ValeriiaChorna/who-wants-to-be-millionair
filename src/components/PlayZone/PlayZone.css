@@ -19,13 +19,33 @@
 }
 .answerItem {
   position: relative;
+  cursor: pointer;
   width: 50%;
+  margin-bottom: 32px;
+}
+
+.answerItem:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+
+.answButton {
+  display: none;
 }
 
 .borderQuestIcon {
   stroke: var(--inactiveColor);
   fill: var(--lightColor);
 }
+
+.answerItem:hover .borderQuestIcon {
+  stroke: var(--accentColor);
+}
+
+.answButton:checked + .borderQuestIcon {
+  stroke: var(--accentColor);
+  fill: var(--selectedBgColor);
+}
+
 .answerItemTitle {
   position: absolute;
   width: 100%;
@@ -44,4 +64,21 @@
 
 .answerName {
   display: inline-block;
+}
+
+/* add styles */
+
+.correct {
+  fill: var(--correctBgColor);
+  stroke: var(--correctColor);
+}
+
+.wrong {
+  fill: var(--wrongBgColor);
+  stroke: var(--wrongColor);
+}
+
+.selected {
+  fill: var(--selectedBgColor);
+  stroke: var(--accentColor);
 }

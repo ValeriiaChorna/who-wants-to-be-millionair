@@ -12,19 +12,18 @@ import {
 import storage from 'redux-persist/lib/storage';
 // routes
 
-// import authReducer from "./auth/authReducer";
-import questionsReducer from './questions/questionsReducer';
+import gameReducer from './game/gameReducer';
 
-const authPersistConfig = {
-  key: 'auth',
+const gamePersistConfig = {
+  key: 'game',
   storage,
-  whitelist: ['token'],
+  whitelist: ['gameUserScore'],
 };
 
 export const store = configureStore({
   reducer: {
-    // auth: persistReducer(authPersistConfig, authReducer),
-    questions: questionsReducer,
+    // game: gameReducer,
+    game: persistReducer(gamePersistConfig, gameReducer),
   },
   middleware: getDefaultMiddleware({
     serializableCheck: {

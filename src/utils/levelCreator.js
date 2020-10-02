@@ -15,3 +15,7 @@ export default function levelCreator(startStep = 500) {
 
   return levelList;
 }
+
+//for creation more levels choose smaller startStep
+const startStep = 500; // =$500
+// const levelItems = levelCreator(startStep);
