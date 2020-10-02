@@ -29,21 +29,25 @@ export default function PlayZone() {
   const handleChange = async ({ target: { value } }) => {
     setSelectedAnswInd(parseInt(value));
     if (parseInt(value) === correctAnswIndex) {
-      // await setTimeout(() => setStyleAnswer('correct'), 500);
-      await setTimeout(() => nextLev(currentLevel.level + 1), 500);
-      addCoins(currentLevel.amount);
-      await setTimeout(
-        () => setChoosenQuestions(addNextQuestion(choosenQuestions, questions)),
-        500,
-      );
-      await setTimeout(() => setSelectedAnswInd(), 550);
+      await setTimeout(() => setStyleAnswer('correct'), 500); //или document.getElementsByClassName
+      await setTimeout(() => {
+        addCoins(currentLevel.amount);
+        nextLev(currentLevel.level + 1);
+        setChoosenQuestions(addNextQuestion(choosenQuestions, questions));
+        setSelectedAnswInd();
+        setStyleAnswer('');
+      }, 2000);
+      // await setTimeout(() => setSelectedAnswInd(), 550);
       if (currentLevel.amount === 1000000) {
-        await setTimeout(() => offGameSession(), 500);
+        await setTimeout(() => offGameSession(), 1000);
       }
     } else {
-      // await setTimeout(() => setStyleAnswer('wrong'), 500);
-      await setTimeout(() => offGameSession(), 500);
-      await setTimeout(() => setChoosenQuestions([]), 550);
+      await setTimeout(() => setStyleAnswer('wrong'), 500);
+      await setTimeout(() => {
+        offGameSession();
+        setChoosenQuestions([]);
+        setStyleAnswer('');
+      }, 2000);
     }
   };
 
@@ -61,7 +65,11 @@ export default function PlayZone() {
               className="answButton"
               key={el}
             />
-            <BorderQuestIcon className="borderQuestIcon" />
+            <BorderQuestIcon
+              className={`borderQuestIcon ${
+                i === selectedAnswInd ? styleAnswer : ''
+              }`}
+            />
             <div className="answerItemTitle">
               <span className="answerLabel">{answerLabel[i]}</span>
               <p className="answerName">{el}</p>

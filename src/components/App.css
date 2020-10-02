@@ -71,8 +71,8 @@ button:focus {
 }
 
 .app {
-  /* height: 900px; */
-  width: 100vw;
+  min-height: 900px;
+  min-width: 1400px;
 }
 
 h2 {
