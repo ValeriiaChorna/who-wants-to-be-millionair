@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/who-wants-to-be-millionaire/static/css/main.21f209cd.chunk.css",
-    "main.js": "/who-wants-to-be-millionaire/static/js/main.6ea79fd9.chunk.js",
-    "main.js.map": "/who-wants-to-be-millionaire/static/js/main.6ea79fd9.chunk.js.map",
+    "main.js": "/who-wants-to-be-millionaire/static/js/main.793252cb.chunk.js",
+    "main.js.map": "/who-wants-to-be-millionaire/static/js/main.793252cb.chunk.js.map",
     "runtime-main.js": "/who-wants-to-be-millionaire/static/js/runtime-main.dad4d559.js",
     "runtime-main.js.map": "/who-wants-to-be-millionaire/static/js/runtime-main.dad4d559.js.map",
     "static/css/2.f87e9f44.chunk.css": "/who-wants-to-be-millionaire/static/css/2.f87e9f44.chunk.css",
     "static/js/2.3d961abb.chunk.js": "/who-wants-to-be-millionaire/static/js/2.3d961abb.chunk.js",
     "static/js/2.3d961abb.chunk.js.map": "/who-wants-to-be-millionaire/static/js/2.3d961abb.chunk.js.map",
     "index.html": "/who-wants-to-be-millionaire/index.html",
-    "precache-manifest.928ee04ec0af587657892b951e7ff149.js": "/who-wants-to-be-millionaire/precache-manifest.928ee04ec0af587657892b951e7ff149.js",
+    "precache-manifest.f6a12772884de0c3947fcfc3112bbdfc.js": "/who-wants-to-be-millionaire/precache-manifest.f6a12772884de0c3947fcfc3112bbdfc.js",
     "service-worker.js": "/who-wants-to-be-millionaire/service-worker.js",
     "static/css/2.f87e9f44.chunk.css.map": "/who-wants-to-be-millionaire/static/css/2.f87e9f44.chunk.css.map",
     "static/css/main.21f209cd.chunk.css.map": "/who-wants-to-be-millionaire/static/css/main.21f209cd.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.f87e9f44.chunk.css",
     "static/js/2.3d961abb.chunk.js",
     "static/css/main.21f209cd.chunk.css",
-    "static/js/main.6ea79fd9.chunk.js"
+    "static/js/main.793252cb.chunk.js"
   ]
 }
