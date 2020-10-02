@@ -17,7 +17,7 @@ import gameReducer from './game/gameReducer';
 const gamePersistConfig = {
   key: 'game',
   storage,
-  whitelist: ['gameUserScore'],
+  whitelist: ['userCoins'],
 };
 
 export const store = configureStore({

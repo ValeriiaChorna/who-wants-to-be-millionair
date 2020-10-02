@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
 import { createReducer } from '@reduxjs/toolkit';
 import gameActions from './gameActions';
+import levels from '../../content/gameLevels.json';
 
 const gameStatusReducer = createReducer('inactive', {
   [gameActions.gameStatusActive]: (state, { payload }) => payload,
@@ -13,18 +14,17 @@ const UserCoinsReducer = createReducer(0, {
 });
 
 const UserLevelReducer = createReducer(
-  {},
+  {
+    level: 0,
+    amount: levels[0],
+  },
   {
     [gameActions.gameUserLevel]: (state, { payload }) => payload,
   },
 );
 
-const gameUserScore = combineReducers({
-  userCoins: UserCoinsReducer,
-  userLevel: UserLevelReducer,
-});
-
 export default combineReducers({
   gameStatus: gameStatusReducer,
-  gameUserScore,
+  userCoins: UserCoinsReducer,
+  userLevel: UserLevelReducer,
 });

@@ -4,7 +4,11 @@ import levels from '../../content/gameLevels.json';
 const onGame = () => dispatch => {
   dispatch(gameActions.gameStatusActive('active'));
   dispatch(gameActions.gameUserCoins(0));
-  addUserLevel(0);
+  const item = {
+    level: 0,
+    amount: levels[0],
+  };
+  dispatch(gameActions.gameUserLevel(item));
 };
 
 const offGame = () => dispatch =>
@@ -12,7 +16,11 @@ const offGame = () => dispatch =>
 
 const restartGame = () => dispatch => {
   dispatch(gameActions.gameStatusInactive('restart'));
-  addUserLevel(0);
+  const item = {
+    level: 0,
+    amount: levels[0],
+  };
+  dispatch(gameActions.gameUserLevel(item));
 };
 
 const addUserCoins = amount => dispatch =>
