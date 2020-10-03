@@ -1,14 +1,12 @@
 .mainWrapTempl {
   height: 100%;
   width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.handImg {
-  margin-bottom: 50px;
 }
 
 .titleWrapper {
@@ -17,7 +15,7 @@
 
 .mainTitle {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: calc(1.5 * var(--mainTitleFontSize));
 }
 
 /* button styles */
@@ -30,7 +28,7 @@
   background-color: var(--accentColor);
   font-weight: 600;
   border: none;
-  margin: 0 auto;
+  margin-bottom: calc(2 * var(--mainTitleFontSize));
 }
 
 .mainButton:hover {
@@ -48,9 +46,16 @@
 }
 
 @media (min-width: 320px) {
+  .handImg {
+    max-width: 340px;
+  }
 }
 
 @media (min-width: 600px) {
+  .handImg {
+    min-width: 600px;
+    margin-bottom: var(--mainTitleFontSize);
+  }
 }
 
 @media (min-width: 768px) {
