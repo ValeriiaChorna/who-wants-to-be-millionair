@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80fb359f117dd6971a5dfa83f557a813",
+    "revision": "9b40387637b6d2654a5301a1505e2001",
     "url": "/who-wants-to-be-millionaire/index.html"
   },
   {
-    "revision": "6c01dfb2b6d0e4d34ce3",
+    "revision": "327240a43e7f16276296",
     "url": "/who-wants-to-be-millionaire/static/css/2.f87e9f44.chunk.css"
   },
   {
-    "revision": "441102f1d0ed181b5c6e",
-    "url": "/who-wants-to-be-millionaire/static/css/main.261e0701.chunk.css"
+    "revision": "149a6d98c00b798b169a",
+    "url": "/who-wants-to-be-millionaire/static/css/main.0609f276.chunk.css"
   },
   {
-    "revision": "6c01dfb2b6d0e4d34ce3",
-    "url": "/who-wants-to-be-millionaire/static/js/2.a1bfe0f4.chunk.js"
+    "revision": "327240a43e7f16276296",
+    "url": "/who-wants-to-be-millionaire/static/js/2.71216ef7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/who-wants-to-be-millionaire/static/js/2.a1bfe0f4.chunk.js.LICENSE.txt"
+    "url": "/who-wants-to-be-millionaire/static/js/2.71216ef7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "441102f1d0ed181b5c6e",
-    "url": "/who-wants-to-be-millionaire/static/js/main.afae1db9.chunk.js"
+    "revision": "149a6d98c00b798b169a",
+    "url": "/who-wants-to-be-millionaire/static/js/main.51b16445.chunk.js"
   },
   {
     "revision": "8e53d058b8221bb2497f",
