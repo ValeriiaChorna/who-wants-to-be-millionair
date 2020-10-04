@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02227efc602de71c922cc1ae4c49d363",
+    "revision": "59d2c45a33b35a4d7111f0c323db5b6b",
     "url": "/who-wants-to-be-millionaire/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/who-wants-to-be-millionaire/static/css/2.f87e9f44.chunk.css"
   },
   {
-    "revision": "cb8fd98d5465fd20b8d0",
-    "url": "/who-wants-to-be-millionaire/static/css/main.ee0a59f7.chunk.css"
+    "revision": "500a009a9cf1340e6bb4",
+    "url": "/who-wants-to-be-millionaire/static/css/main.56097aa8.chunk.css"
   },
   {
     "revision": "d453188ab91e07df29b3",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/who-wants-to-be-millionaire/static/js/2.e2d99201.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb8fd98d5465fd20b8d0",
+    "revision": "500a009a9cf1340e6bb4",
     "url": "/who-wants-to-be-millionaire/static/js/main.ca77db5f.chunk.js"
   },
   {
