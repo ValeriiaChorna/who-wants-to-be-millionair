@@ -4,6 +4,7 @@ import gameSelectors from '../../redux/game/gameSelectors';
 import gameOperations from '../../redux/game/gameOperations';
 import questions from '../../content/questions.json';
 import answerLabel from '../../content/answerLebels.json';
+import gameLevels from '../../content/gameLevels.json';
 import randomInteger from '../../utils/randomInteger';
 import addNextQuestion from '../../utils/addNextQuestion';
 import { ReactComponent as BorderQuestIcon } from '../../assets/img/borderQuestionIcon.svg';
@@ -38,8 +39,8 @@ export default function PlayZone() {
         setStyleAnswer('');
       }, 2000);
       // await setTimeout(() => setSelectedAnswInd(), 550);
-      if (currentLevel.amount === 1000000) {
-        await setTimeout(() => offGameSession(), 1000);
+      if (currentLevel.amount === gameLevels[gameLevels.length - 1]) {
+        await setTimeout(() => offGameSession(), 2000);
       }
     } else {
       await setTimeout(() => setStyleAnswer('wrong'), 500);

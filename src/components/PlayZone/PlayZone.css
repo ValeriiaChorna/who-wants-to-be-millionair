@@ -9,6 +9,7 @@
 }
 .questionName {
   width: 100%;
+  padding: 0 10px;
 }
 
 .answersWrapper {
@@ -23,6 +24,11 @@
   position: relative;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 8px;
+}
+
+.answerItem:last-child {
+  margin-bottom: 0;
 }
 
 .answButton {
@@ -31,6 +37,7 @@
 
 .borderQuestIcon {
   width: 100%;
+  height: 4rem;
   stroke: var(--inactiveColor);
   fill: var(--lightColor);
 }
@@ -49,7 +56,7 @@
   width: 100%;
   height: 100%;
   top: 0;
-  padding: 8px 46px;
+  padding: 8px 3rem;
   display: flex;
   align-items: center;
 }
@@ -94,6 +101,11 @@
     justify-content: space-around;
   }
 
+  .questionName {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+
   .answersWrapper {
     width: 100%;
     flex-direction: row;
@@ -105,21 +117,17 @@
     margin-bottom: 32px;
   }
 
-  .answerItem {
-    margin-bottom: 8px;
-  }
-
   .answerItem:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
   .borderQuestIcon {
-    width: inherit;
+    min-width: 200px;
   }
 }
 
 @media (min-width: 1024px) {
   .playZone {
-    width: 70%;
+    width: 60%;
     padding: 0 4rem;
     justify-content: space-around;
   }
@@ -132,11 +140,7 @@
   }
   .answerItem {
     width: 50%;
-    margin-bottom: 32px;
-  }
-
-  .answerItem {
-    margin-bottom: 8px;
+    margin-bottom: 1.5rem;
   }
 
   .answerItem:nth-last-child(-n + 2) {

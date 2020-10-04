@@ -1,9 +1,19 @@
 .gameStart {
   height: 100%;
   width: 100%;
-  min-width: 320px;
-  background-image: url('../../assets/img/Rectangle-15.svg');
-  background-size: cover;
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
+  /* background-image: url('../../assets/img/Rectangle-15.svg'); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.triangIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }

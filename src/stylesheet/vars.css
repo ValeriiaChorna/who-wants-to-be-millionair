@@ -35,10 +35,24 @@
 
 @media (min-width: 1024px) {
   :root {
+    --mainTextFontSize: 16px;
+    --mainTitleFontSize: 2.8rem;
+    --secondTitleFontSize: 1.6rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  :root {
     --mainTextFontSize: 20px;
     /* 56 px */
     --mainTitleFontSize: 2.8rem;
     /* 32 px */
     --secondTitleFontSize: 1.6rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  :root {
+    --mainTextFontSize: 35px;
   }
 }

@@ -66,6 +66,11 @@
     flex-direction: row;
   }
 
+  .handImg {
+    /* min-width: 600px; */
+    margin-bottom: 0;
+  }
+
   .mainTitle {
     text-align: left;
     margin-bottom: 64px;

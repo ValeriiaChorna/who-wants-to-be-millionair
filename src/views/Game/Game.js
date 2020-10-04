@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import PlayZone from '../../components/PlayZone';
 import Menu from '../../components/Menu';
+import { ReactComponent as GambMenuIcon } from '../../assets/img/gambur-menu.svg';
+import { ReactComponent as CloseButton } from '../../assets/img/close-butt.svg';
 import './Game.css';
 
 export default function Game() {
@@ -12,16 +14,16 @@ export default function Game() {
 
   return (
     <div className="game">
-      <nav class="mobileMenu">
+      <nav className="mobileMenu">
         {!mobeleMenuShow && (
           <div className="bamburgIcon">
             <button
               type="button"
-              className="openMenu"
+              className="menuButton openMenuButton"
               type="submit"
               onClick={onShowMenu}
             >
-              Open
+              <GambMenuIcon />
             </button>
           </div>
         )}
@@ -29,11 +31,11 @@ export default function Game() {
           <div className="crossIcon">
             <button
               type="button"
-              className="closeMenu"
+              className="menuButton closeMenuButton"
               type="submit"
               onClick={onShowMenu}
             >
-              close
+              <CloseButton />
             </button>
           </div>
         )}

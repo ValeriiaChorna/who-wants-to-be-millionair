@@ -13,13 +13,23 @@
   z-index: 5;
 }
 
+button.menuButton {
+  border: none;
+  background-color: transparent;
+  padding: 8px;
+}
+
 .gameMenuWrapp {
-  display: none;
+  /* dispvlay: none; */
+  visibility: hidden;
 }
 
 .showMenu {
-  display: block;
+  visibility: visible;
   position: absolute;
+  background-color: var(--secondBgColor);
+  height: 100%;
+  width: 100%;
   top: 0;
 }
 
@@ -30,13 +40,26 @@
 }
 
 @media (min-width: 768px) {
+  .showMenu {
+    visibility: visible;
+    position: absolute;
+    background-color: var(--lightColor);
+    height: 60%;
+    width: 40%;
+    top: 0;
+    right: 0;
+  }
 }
 
 @media (min-width: 1024px) {
   .gameMenuWrapp {
-    width: 376px;
+    visibility: visible;
+    width: 25%;
+    /* min-width: 320px; */
+    position: absolute;
     height: 100%;
     right: 0;
+    top: 0;
     /* transform: translate(-50%;-50%); */
   }
   .mobileMenu {
