@@ -29,14 +29,18 @@
   font-weight: 600;
   border: none;
   margin-bottom: calc(2 * var(--mainTitleFontSize));
+  transition: all 0.5s ease;
 }
 
-.mainButton:hover {
+.mainButton:hover,
+.mainButton:focus {
   background-color: var(--hoverBgColor);
+  transform: scale(1.04);
 }
 
 .mainButton:active {
-  background-color: var(--hoverBgColor);
+  transform: scale(1);
+  background-color: var(--pressedBgColor);
 }
 
 .secondaryTitle {

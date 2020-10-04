@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.menuItem:last-child {
+  margin-bottom: 3rem;
+}
+
 .menuText {
   position: absolute;
   padding: 4px 0;
@@ -81,5 +85,9 @@
   .menuIcons {
     width: 100%;
     min-width: 200px;
+  }
+
+  .menuItem:last-child {
+    margin-bottom: 0;
   }
 }

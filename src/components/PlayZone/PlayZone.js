@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+
 import gameSelectors from '../../redux/game/gameSelectors';
 import gameOperations from '../../redux/game/gameOperations';
 import questions from '../../content/questions.json';
@@ -37,10 +38,10 @@ export default function PlayZone() {
         setChoosenQuestions(addNextQuestion(choosenQuestions, questions));
         setSelectedAnswInd();
         setStyleAnswer('');
-      }, 2000);
+      }, 1300);
       // await setTimeout(() => setSelectedAnswInd(), 550);
       if (currentLevel.amount === gameLevels[gameLevels.length - 1]) {
-        await setTimeout(() => offGameSession(), 2000);
+        await setTimeout(() => offGameSession(), 1500);
       }
     } else {
       await setTimeout(() => setStyleAnswer('wrong'), 500);
@@ -48,7 +49,7 @@ export default function PlayZone() {
         offGameSession();
         setChoosenQuestions([]);
         setStyleAnswer('');
-      }, 2000);
+      }, 1300);
     }
   };
 

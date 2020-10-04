@@ -74,13 +74,13 @@
 /* add styles */
 
 .correct {
-  fill: var(--correctBgColor);
-  stroke: var(--correctColor);
+  fill: var(--correctBgColor) !important;
+  stroke: var(--correctColor) !important;
 }
 
 .wrong {
-  fill: var(--wrongBgColor);
-  stroke: var(--wrongColor);
+  fill: var(--wrongBgColor) !important;
+  stroke: var(--wrongColor) !important;
 }
 
 .selected {

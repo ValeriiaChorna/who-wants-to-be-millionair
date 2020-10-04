@@ -8,17 +8,16 @@ export default function MainWrapTempl({ buttonText, children }) {
   const dispatch = useDispatch();
   const onGame = () => dispatch(gameOperations.onGame());
 
+  const onClick = async () => {
+    await setTimeout(() => onGame(), 400);
+  };
+
   return (
     <div className="mainWrapTempl">
       <HandImg className="handImg" />
       <div className="titleWrapper">
         {children}
-        <button
-          type="button"
-          className="mainButton"
-          type="submit"
-          onClick={onGame}
-        >
+        <button type="button" className="mainButton" onClick={onClick}>
           {buttonText}
         </button>
       </div>
