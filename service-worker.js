@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/who-wants-to-be-millionaire/precache-manifest.febd37e801560d67f644a7fd2441410a.js"
+  "/who-wants-to-be-millionaire/precache-manifest.f829cc6c8e2a537000c04fe4f0d0ed54.js"
 );
 
 self.addEventListener('message', (event) => {
