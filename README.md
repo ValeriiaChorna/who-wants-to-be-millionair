@@ -29,7 +29,7 @@ React in production mode and optimizes the build for the best performance.
 The build is minified and the filenames include the hashes.<br /> Your app is
 ready to be deployed!
 
-### Questions for the game
+## Questions for the game
 
 The program only reads questions.json (/src/content). You can add more questions
 to array (example of format is below). Questions in the game will be randomly
