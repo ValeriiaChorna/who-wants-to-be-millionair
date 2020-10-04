@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/who-wants-to-be-millionaire/static/css/main.56097aa8.chunk.css",
-    "main.js": "/who-wants-to-be-millionaire/static/js/main.ca77db5f.chunk.js",
-    "main.js.map": "/who-wants-to-be-millionaire/static/js/main.ca77db5f.chunk.js.map",
+    "main.css": "/who-wants-to-be-millionaire/static/css/main.6e9b83cb.chunk.css",
+    "main.js": "/who-wants-to-be-millionaire/static/js/main.bc3ae49d.chunk.js",
+    "main.js.map": "/who-wants-to-be-millionaire/static/js/main.bc3ae49d.chunk.js.map",
     "runtime-main.js": "/who-wants-to-be-millionaire/static/js/runtime-main.dad4d559.js",
     "runtime-main.js.map": "/who-wants-to-be-millionaire/static/js/runtime-main.dad4d559.js.map",
     "static/css/2.f87e9f44.chunk.css": "/who-wants-to-be-millionaire/static/css/2.f87e9f44.chunk.css",
-    "static/js/2.e2d99201.chunk.js": "/who-wants-to-be-millionaire/static/js/2.e2d99201.chunk.js",
-    "static/js/2.e2d99201.chunk.js.map": "/who-wants-to-be-millionaire/static/js/2.e2d99201.chunk.js.map",
+    "static/js/2.8d06162b.chunk.js": "/who-wants-to-be-millionaire/static/js/2.8d06162b.chunk.js",
+    "static/js/2.8d06162b.chunk.js.map": "/who-wants-to-be-millionaire/static/js/2.8d06162b.chunk.js.map",
     "index.html": "/who-wants-to-be-millionaire/index.html",
-    "precache-manifest.a7e87e38852f83fe9b72f48fe4955022.js": "/who-wants-to-be-millionaire/precache-manifest.a7e87e38852f83fe9b72f48fe4955022.js",
+    "precache-manifest.ff4a2d5c11cebfbcdc6cbaa5f492482f.js": "/who-wants-to-be-millionaire/precache-manifest.ff4a2d5c11cebfbcdc6cbaa5f492482f.js",
     "service-worker.js": "/who-wants-to-be-millionaire/service-worker.js",
     "static/css/2.f87e9f44.chunk.css.map": "/who-wants-to-be-millionaire/static/css/2.f87e9f44.chunk.css.map",
-    "static/css/main.56097aa8.chunk.css.map": "/who-wants-to-be-millionaire/static/css/main.56097aa8.chunk.css.map",
-    "static/js/2.e2d99201.chunk.js.LICENSE.txt": "/who-wants-to-be-millionaire/static/js/2.e2d99201.chunk.js.LICENSE.txt",
+    "static/css/main.6e9b83cb.chunk.css.map": "/who-wants-to-be-millionaire/static/css/main.6e9b83cb.chunk.css.map",
+    "static/js/2.8d06162b.chunk.js.LICENSE.txt": "/who-wants-to-be-millionaire/static/js/2.8d06162b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/who-wants-to-be-millionaire/static/media/Inter-ThinItalicBETA.d82c5c45.woff",
     "static/media/Rectangle-15.67d728ef.svg": "/who-wants-to-be-millionaire/static/media/Rectangle-15.67d728ef.svg",
-    "static/media/borderIcon.eb18bafb.svg": "/who-wants-to-be-millionaire/static/media/borderIcon.eb18bafb.svg",
+    "static/media/borderIcon.515a1958.svg": "/who-wants-to-be-millionaire/static/media/borderIcon.515a1958.svg",
     "static/media/borderQuestionIcon.b5748f87.svg": "/who-wants-to-be-millionaire/static/media/borderQuestionIcon.b5748f87.svg",
     "static/media/close-butt.cecfba40.svg": "/who-wants-to-be-millionaire/static/media/close-butt.cecfba40.svg",
     "static/media/gambur-menu.ef43c181.svg": "/who-wants-to-be-millionaire/static/media/gambur-menu.ef43c181.svg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.dad4d559.js",
     "static/css/2.f87e9f44.chunk.css",
-    "static/js/2.e2d99201.chunk.js",
-    "static/css/main.56097aa8.chunk.css",
-    "static/js/main.ca77db5f.chunk.js"
+    "static/js/2.8d06162b.chunk.js",
+    "static/css/main.6e9b83cb.chunk.css",
+    "static/js/main.bc3ae49d.chunk.js"
   ]
 }
